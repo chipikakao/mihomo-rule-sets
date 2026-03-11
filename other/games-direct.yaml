@@ -5,6 +5,10 @@ payload:
   # Aimbeast
   - PROCESS-NAME-REGEX,Aimbeast.* 
 
+  # League of legends
+  - PROCESS-NAME-REGEX,RiotClientServices.*
+  - PROCESS-NAME,RiotClientServices.exe
+  
   # Among Us
   - PROCESS-NAME,Among Us.exe
 
@@ -168,3 +172,4 @@ payload:
 
   # MIMESIS
   - PROCESS-NAME,MIMESIS.exe
+
